@@ -26,7 +26,7 @@ gem "bcrypt", "~> 3.1.11", require: false
 gem "uglifier", ">= 1.3.0", require: false
 
 # Explicitly avoid 1.x that doesn't support Ruby 2.4+
-gem "json", ">= 2.0.0"
+gem "json", ">= 2.3.0"
 
 gem "rubocop", ">= 0.47", require: false
 gem "rubocop-performance", require: false
@@ -35,7 +35,7 @@ gem "rubocop-rails", require: false
 group :doc do
   gem "sdoc", "~> 1.0"
   gem "redcarpet", "~> 3.2.3", platforms: :ruby
-  gem "w3c_validators"
+  gem "w3c_validators", ">= 1.3.4"
   gem "kindlerb", "~> 1.2.0"
 end
 
